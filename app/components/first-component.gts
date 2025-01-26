@@ -6,7 +6,7 @@ export default class FirstComponent extends Component {
   }
 
   <template>
-    <h1>
+    <h1 class="text-4xl text-blue-500">
       {{this.name}}
     </h1>
   </template>

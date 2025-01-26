@@ -15,6 +15,14 @@ module.exports = function (defaults) {
     packagerOptions: {
       webpackConfig: {
         plugins: [new BundleAnalyzerPlugin()],
+        module: {
+          rules: [
+            {
+              test: /\.css$/i,
+              use: ['postcss-loader'],
+            },
+          ],
+        },
       },
     },
     staticAddonTestSupportTrees: true,
