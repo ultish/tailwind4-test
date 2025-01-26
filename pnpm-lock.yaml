@@ -116,6 +116,9 @@ importers:
       concurrently:
         specifier: ^9.1.0
         version: 9.1.2
+      daisyui:
+        specifier: 5.0.0-beta.2
+        version: 5.0.0-beta.2
       ember-auto-import:
         specifier: ^2.10.0
         version: 2.10.0(@glint/template@1.5.2)(webpack@5.97.1)
@@ -2781,6 +2784,9 @@ packages:
 
   dag-map@2.0.2:
     resolution: {integrity: sha512-xnsprIzYuDeiyu5zSKwilV/ajRHxnoMlAhEREfyfTgTSViMVY2fGP1ZcHJbtwup26oCkofySU/m6oKJ3HrkW7w==}
+
+  daisyui@5.0.0-beta.2:
+    resolution: {integrity: sha512-H1gXtcQhjcKze3UBq23dJUyKYIxHrVIKb6XtDfnSh6Ft4d0BMfPOwuvzIsuEe5PkbBm9kZH0ny+aQqiDosqpPQ==}
 
   data-urls@5.0.0:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
@@ -9733,6 +9739,8 @@ snapshots:
       rrweb-cssom: 0.8.0
 
   dag-map@2.0.2: {}
+
+  daisyui@5.0.0-beta.2: {}
 
   data-urls@5.0.0:
     dependencies:

@@ -9,5 +9,7 @@ export default class FirstComponent extends Component {
     <h1 class="text-4xl text-blue-500">
       {{this.name}}
     </h1>
+
+    <button type="button" class="btn btn-success">Success</button>
   </template>
 }
