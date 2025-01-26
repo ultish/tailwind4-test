@@ -48,9 +48,10 @@
     "@eslint/js": "^9.17.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
-    "@glint/environment-ember-loose": "^1.5.0",
-    "@glint/environment-ember-template-imports": "^1.5.0",
-    "@glint/template": "^1.5.0",
+    "@glint/core": "^1.5.2",
+    "@glint/environment-ember-loose": "^1.5.2",
+    "@glint/environment-ember-template-imports": "^1.5.2",
+    "@glint/template": "^1.5.2",
     "@tsconfig/ember": "^3.0.8",
     "@types/eslint__js": "^8.42.3",
     "@types/qunit": "^2.19.12",
@@ -75,6 +76,7 @@
     "ember-page-title": "^8.2.3",
     "ember-qunit": "^8.1.1",
     "ember-resolver": "^13.1.0",
+    "ember-routable-component": "^1.2.0",
     "ember-source": "~6.1.0",
     "ember-template-imports": "^4.2.0",
     "ember-template-lint": "^6.0.0",
@@ -96,7 +98,8 @@
     "tracked-built-ins": "^3.4.0",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.2",
-    "webpack": "^5.97.1"
+    "webpack": "^5.97.1",
+    "webpack-bundle-analyzer": "^4.10.2"
   },
   "engines": {
     "node": ">= 18"
